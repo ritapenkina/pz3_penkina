@@ -1,0 +1,20 @@
+﻿<Window x:Class="pz2_penkina.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:pz2_penkina"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="440" Width="495">
+    <Grid Margin="0,0,0,-6">
+        <Button Content="Вычислить" HorizontalAlignment="Left" Margin="209,277,0,0" VerticalAlignment="Top" Click="Button_Click"/>
+        <Label Content="Введите х:" HorizontalAlignment="Left" Margin="181,10,0,0" VerticalAlignment="Top"/>
+        <Label Content="Введите у:" HorizontalAlignment="Left" Margin="181,82,0,0" VerticalAlignment="Top"/>
+        <Label Content="Bведите z:" HorizontalAlignment="Left" Margin="181,148,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="TextBox1" HorizontalAlignment="Left" Margin="181,51,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="TextBox2" HorizontalAlignment="Left" Margin="181,124,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="TextBox3" HorizontalAlignment="Left" Margin="181,199,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label x:Name="label4" Content="" HorizontalAlignment="Left" Margin="133,339,0,0" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>
